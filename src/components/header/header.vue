@@ -68,7 +68,7 @@
   </div>
 </template>
 <script>
-  import star from '../../../../未命名文件夹/src/components/star/star.vue';
+  import star from '../star/star.vue';
   export default{
     props: {
       seller: {

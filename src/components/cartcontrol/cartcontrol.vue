@@ -13,7 +13,7 @@
 
 <script>
   import Vue from 'vue';
-  import bus from 'components/bus/bus';
+  import bus from '../bus/bus';
   export default{
     props: {
       food: {

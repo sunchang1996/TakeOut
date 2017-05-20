@@ -14,7 +14,7 @@
 </template>
 
 <script>
-  import header from 'components/header/header.vue';
+  import header from './components/header/header.vue';
   const ERR_OK = 0; // 设置一个状态的变量码 声明一个变量
   export default {
     data () {

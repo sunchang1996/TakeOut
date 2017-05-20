@@ -54,8 +54,8 @@
 </template>
 
 <script>
-  import bus from 'components/bus/bus';
-  import cartcontrol from 'components/cartcontrol/cartcontrol';
+  import bus from '../bus/bus'
+  import cartcontrol from '../cartcontrol/cartcontrol';
   import BScroll from 'better-scroll';
   export default{
     props: {

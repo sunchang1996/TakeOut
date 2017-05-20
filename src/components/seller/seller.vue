@@ -71,7 +71,7 @@
   import BScroll from 'better-scroll';
   import star from '@/components/star/star';
   import split from '@/components/split/split';
-  import {saveToLocal, loadFromLocal} from '../../common/js/store';
+  import {saveTolLocal, loadFromLocal} from '../../common/js/store.js';
   export default {
     data() {
       return {

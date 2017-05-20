@@ -52,9 +52,9 @@
   </div>
 </template>
 <script>
-  import star from '../../../../未命名文件夹/src/components/star/star.vue';
-  import split from '../../../../未命名文件夹/src/components/split/split.vue';
-  import ratingSelect from '../../../../未命名文件夹/src/components/ratingselect/ratingselect.vue';
+  import star from '../star/star.vue';
+  import split from '../split/split.vue';
+  import ratingSelect from  '../ratingselect/ratingselect.vue';
   import {formatDate} from '../../common/js/data';
   import BScroll from 'better-scroll';
   const ALL = 2;

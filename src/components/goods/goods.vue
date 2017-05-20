@@ -51,9 +51,9 @@
 
 <script>
   import BScroll from 'better-scroll';
-  import shopcart from 'components/shopcart/shopcart';
-  import cartcontrol from 'components/cartcontrol/cartcontrol';
-  import food from 'components/food/food';
+  import shopcart from '../shopcart/shopcart';
+  import cartcontrol from '../cartcontrol/cartcontrol';
+  import food from '../food/food';
   const ERR_OK = 0;
   export default {
     props: {

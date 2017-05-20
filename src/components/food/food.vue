@@ -61,10 +61,10 @@
 <script>
   import BScroll from 'better-scroll';
   import Vue from 'vue';
-  import cartcontrol from '../../../../未命名文件夹/src/components/cartcontrol/cartcontrol';
-  import bus from '../../../../未命名文件夹/src/components/bus/bus';
-  import split from '../../../../未命名文件夹/src/components/split/split';
-  import ratingselect from '../../../../未命名文件夹/src/components/ratingselect/ratingselect';
+  import cartcontrol from '../cartcontrol/cartcontrol.vue';
+  import bus from '../bus/bus';
+  import split from '../split/split.vue';
+  import ratingselect from '../ratingselect/ratingselect.vue';
   import {formatDate} from '../../common/js/data';
   // const POSITIVE = 0;
   // const NEGATIVE = 1;
