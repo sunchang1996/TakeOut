@@ -83,16 +83,14 @@
       ratingSelect
     },
     created() {
-      this.$http.get('/api/ratings').then((res) => {
+      this.$http.get('../static/data.json').then((res) => {
         res = res.body;
-        if (res.error === ERR_OK) { // error 是err number的意思 后台给的成功的数据 0
-          this.ratings = res.data;
+        this.ratings = res.ratings;
           this.$nextTick(() => {
             this.scroll = new BScroll(this.$refs.ratings, {
               click: true // 可以点击 把click设置为true
             });
           });
-        }
       });
     },
     filters: {

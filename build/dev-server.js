@@ -29,21 +29,21 @@ apiRoutes.get('/seller', function(req, res) {
     errno: 0,
     data: seller
   })
-})
+});
 
 apiRoutes.get('/goods', function(req, res) {
   res.json({
     errno: 0,
     data: goods
   })
-})
+});
 
 apiRoutes.get('/ratings', function(req, res) {
   res.json({
     errno: 0,
     data: ratings
   })
-})
+});
 
 app.use('/api', apiRoutes)
 
@@ -55,7 +55,7 @@ var devMiddleware = require('webpack-dev-middleware')(compiler, {
     colors: true,
     chunks: false
   }
-})
+});
 
 var hotMiddleware = require('webpack-hot-middleware')(compiler)
 // force page reload when html-webpack-plugin template changes

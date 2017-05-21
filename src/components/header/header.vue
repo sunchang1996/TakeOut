@@ -12,7 +12,6 @@
         </div>
         <div class="description">
           {{seller.description}}/{{seller.deliveryTime}}分钟送达
-
         </div>
         <!-- 这里为什么加if 因为获取数据是异步过程 一开始表示为空是undefined 要进行判断-->
         <div v-if="seller.supports" class="support">

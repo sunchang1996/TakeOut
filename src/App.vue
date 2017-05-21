@@ -23,12 +23,11 @@
       };
     },
     created() {
+      console.log(1);
 //        成功之后的回调
-      this.$http.get('/api/seller').then((response) => {
+      this.$http.get('../static/data.json').then((response) => {
         response = response.body;
-        if (response.errno === ERR_OK) {
-          this.seller = response.data;
-        }
+        this.seller = response.seller;
       });
     },
     components: {
