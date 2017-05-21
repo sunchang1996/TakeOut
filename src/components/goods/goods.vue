@@ -94,16 +94,13 @@
     },
     created() {
       this.classMap = ['decrease', 'discount', 'guarantee', 'invoice', 'special'];
-      this.$http.get('/api/goods').then((response) => {
+      this.$http.get('static/data.json').then((response) => {
         response = response.body;
-        if (response.errno === ERR_OK) {
-          this.goods = response.data;
-          // console.log(this.goods)
+          this.goods = response.goods;
           this.$nextTick(() => {
             this._initScroll();
             this._calculateHeight();
           });
-        }
       });
     },
     methods: {
