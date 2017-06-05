@@ -23,9 +23,8 @@
       };
     },
     created() {
-      console.log(1);
 //        成功之后的回调
-      this.$http.get('../static/data.json').then((response) => {
+      this.$http.get('static/data.json').then((response) => {
         response = response.body;
         this.seller = response.seller;
       });

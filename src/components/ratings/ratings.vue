@@ -83,7 +83,7 @@
       ratingSelect
     },
     created() {
-      this.$http.get('../static/data.json').then((res) => {
+      this.$http.get('static/data.json').then((res) => {
         res = res.body;
         this.ratings = res.ratings;
           this.$nextTick(() => {
